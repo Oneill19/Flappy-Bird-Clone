@@ -24,7 +24,7 @@ PIPES_SPAWN_RATE = 1300
 BIRD_ANIMATION_RATE = 200
 PIPES_SPAWN = pygame.USEREVENT
 BIRD_ANIMATE = pygame.USEREVENT + 1
-FONT = pygame.font.Font('FlappyFont.ttf', 30)
+FONT = pygame.font.Font('assets/FlappyFont.ttf', 30)
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))  # initialize a windows for pygame
 
 
